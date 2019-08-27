@@ -3,6 +3,7 @@ project(furgbol-core)
 
 set(CMAKE_INSTALL_PREFIX "${CMAKE_SOURCE_DIR}")
 
+add_subdirectory("ext/vss-vision-proto")
 add_subdirectory("ext/ssl-vision-proto")
 add_subdirectory("ext/ssl-refbox-proto")
 add_subdirectory("ext/grSim-proto")
